@@ -27,15 +27,16 @@ To use the Student Registration Form:
 
 3. Fill in the required details and click on the "Submit" button to submit the form.
 
-Contributing
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+ Contributing
+ Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-Fork the repository.
+ Fork the repository.
 
-Create your feature branch (git checkout -b feature/new-feature).
+ Create your feature branch (git checkout -b feature/new-feature).
 
-Commit your changes (git commit -am 'Add new feature').
+ Commit your changes (git commit -am 'Add new feature').
 
-Push to the branch (git push origin feature/new-feature).
+ Push to the branch (git push origin feature/new-feature).
 
-Open a pull request.
+ Open a pull request.
+ 
