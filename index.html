@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Student Registration Form</title>
+</head>
+
+<body class="space-y-4">
+    <h1 class="text-center text-4xl">Student Registration Form</h1>
+    <h3 class="text-center text-2xl">
+        Fill In The Blanks <span class="text-red-600">*</span>
+    </h3>
+    <form>
+        <table align="center" cellpadding="10">
+            <tr>
+                <td>
+                    <label for="firstname">First Name</label>
+                <td>
+
+                    <input type="text" name="firstname" id="firstname" placeholder="FirstName" class="border" />
+                </td>
+                <td>
+                    <p>(Max 40 Characters a-z and A-Z)</p>
+                </td>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="lastname">Last Name</label>
+                <td>
+
+                    <input type="text" name="lastname" id="lastname" placeholder="Last Name" class="border" />
+                </td>
+                <td>
+                    <p>(Max 40 Characters a-z and A-Z)</p>
+                </td>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label>
+                <td>
+
+                    <input type="email" name="email" id="email" placeholder="Email" class="border" />
+                </td>
+                <td>
+                    <p>(Max 40 Characters a-z and A-Z)</p>
+                </td>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender</label>
+                <td>Male : <input type="radio" name="gender" value="Male"></td>
+                </td>
+                <td>Female : <input type="radio" name="gender" value="Female"></td>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone Number</label>
+                <td><input type="text" id="phone" name="phone" placeholder="Phone Number" maxlength="10"
+                        class="border" />
+                </td>
+                </td>
+                <td>
+                    <p>(10 Digit Number)</p>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="date">Date Of Birth</label>
+                <td><input type="date" name="date" id="date"></td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">Address</label>
+                <td align="center"><textarea name="address" id="address" cols="30" rows="5" placeholder="Address"
+                        class="border"></textarea></td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pincode">Pin Code</label>
+                <td><input type="text" placeholder="Pin Code" name="pincode" id="pincode" class="border"
+                        maxlength="6" /></td>
+                </td>
+                <td>
+                    <p>(6 Digit)</p>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="country">Country</label></td>
+                <td><select name="country" id="country">
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="Others">Others</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>Hobbies
+                </td>
+                <td><label for="Singing"> Singing</label> <input type="checkbox" value="Singing" name="Singing"
+                        id="Singing"></td>
+                <td><label for="Reading"> Reading</label> <input type="checkbox" value="Reading" name="Reading"
+                        id="Reading"></td>
+                <td><label for="Others"> Others </label><input type="checkbox" value="Others" name="Others" id="Others">
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>Qualification</td>
+                <table align="center" cellpadding="15">
+                    <thead>
+                        <th colspan="5" class="text-2xl">Please add your data <span class="text-red-600">*</span></th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>S.NO</td>
+                            <td>Examination</td>
+                            <td>Board/University</td>
+                            <td>Year Of Passing</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Class X</td>
+                            <td><input type="text" placeholder="Board/University"></td>
+                            <td><input type="text" placeholder="Year of passing"></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Class XII</td>
+                            <td><input type="text" placeholder="Board/University"></td>
+                            <td><input type="text" placeholder="Year of passing"></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Graduation</td>
+                            <td><input type="text" placeholder="Board/University"></td>
+                            <td><input type="text" placeholder="Year of passing"></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Post Graduation</td>
+                            <td><input type="text" placeholder="Board/University"></td>
+                            <td><input type="text" placeholder="Year of passing"></td>
+                        </tr>
+                    </tbody>
+                    <tr align="center">
+                        <td><button class="px-4 py-2 shadow-sm border-2 bg-gray-100" type="submit">Submit</button></td>
+                        <td><button class="px-4 py-2 shadow-sm border-2 bg-gray-100" type="reset">Reset</button></td>
+                    </tr>
+                </table>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
